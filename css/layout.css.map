@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAQ,8EAAsE;AAG9E,UAAU;EACR,WAAW,EAAE,mBAAmB;EAChC,SAAS,EAAE,KAAK;EAChB,WAAW,EAAE,GAAG;EAChB,cAAc,EAAE,GAAG;EACnB,KAAK,ECRC,OAAO;;ADWf,IAAI;EACF,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,GAAG",
+"sources": ["../sass/layout.scss","../sass/zekerenvastgoed.scss"],
+"names": [],
+"file": "layout.css"
+}

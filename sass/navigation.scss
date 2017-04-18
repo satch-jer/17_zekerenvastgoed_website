@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,800');
+@import 'zekerenvastgoed.scss';
+
+header{
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 200px;
+  background-color: $plastic;
+}
+
+.inner-header{
+  max-width: 1140px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#block-zekerenvastgoed-branding{
+  margin-bottom: 30px;
+
+  img{
+    width: 50px;
+  }
+}
+
+nav{
+  ul{
+    list-style-type: none;
+
+    li{
+      display: inline;
+
+      a{
+        color: $night;
+        text-decoration: none;
+        border-bottom: 2px solid transparent;
+        font-weight: 700;
+        font-variant: small-caps;
+        text-transform: lowercase;
+        padding: 0 15px 15px 15px;
+        transition: 1s ease;
+      }
+
+      a:hover{
+        text-decoration: line-through;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,800');
+@import 'zekerenvastgoed.scss';
+
+html, body{
+  font-family: Raleway, sans-serif;
+  font-size: 62.5%;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: $night;
+}
+
+body{
+  font-size: 1.6rem;
+  line-height: 1.5;
+}

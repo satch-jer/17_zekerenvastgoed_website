@@ -9,6 +9,9 @@ libraries:
   - core/normalize
   - zekerenvastgoed/global-styling
 
+libraries-override:
+  classy/base: false
+
 regions:
   header: Header
   landing: Landing

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,800');
+@import 'zekerenvastgoed.scss';
+
+.zvg-landing{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  ;
+}
+
+.zvg-landing-intro{
+  position: absolute;
+  max-width: 1140px;
+  z-index: 1;
+  top: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+#zvg-landing-video{
+  min-width:100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  background-size: cover;
+  opacity: 0.5;
+  z-index: -99;
+}
+
+.zvg-landing-intro{
+  padding-left: 15px;
+}
+
+#block-intro{
+  font-weight: 400;
+  font-size: 1.8rem;
+  margin-bottom: 50px;
+  line-height: 2;
+
+  h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+    font-variant: small-caps;
+    text-transform: lowercase;
+  }
+}
+
+#block-landingbuttons{
+  div{
+    display: inline-block;
+  }
+  a{
+    background-color: $smurf;
+    color: $snow;
+    width: 175px;
+    padding: 15px 0;
+    text-decoration: none;
+    margin-right: 15px;
+    display: inline-block;
+    text-align: center;
+  }
+}

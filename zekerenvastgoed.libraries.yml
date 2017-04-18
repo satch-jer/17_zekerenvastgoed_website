@@ -3,6 +3,9 @@ global-styling:
   css:
     base:
       css/zekerenvastgoed.css: {}
+      css/layout.css: {}
+      css/navigation.css: {}
+      css/landing.css: {}
   js:
     js/zekerenvastgoed.js: {}
   dependencies:
