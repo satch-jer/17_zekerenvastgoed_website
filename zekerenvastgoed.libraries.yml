@@ -1,0 +1,11 @@
+global-styling:
+  version: 1
+  css:
+    base:
+      css/zekerenvastgoed.css: {}
+  js:
+    js/zekerenvastgoed.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
