@@ -10,4 +10,16 @@ body {
   font-size: 1.6rem;
   line-height: 1.5; }
 
+.layout-content {
+  max-width: 1140px;
+  margin: 0 auto; }
+
+h2 {
+  font-weight: 800;
+  letter-spacing: 5px;
+  font-variant: small-caps;
+  font-size: 4.8rem;
+  color: #f1f1f1;
+  text-transform: lowercase; }
+
 /*# sourceMappingURL=layout.css.map */

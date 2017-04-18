@@ -35,15 +35,14 @@
 
 #block-intro{
   font-weight: 400;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin-bottom: 50px;
   line-height: 2;
 
   h2{
-    font-size: 2.4rem;
+    font-size: 2rem;
     font-weight: 700;
-    font-variant: small-caps;
-    text-transform: lowercase;
+    color: $night;
   }
 }
 
@@ -55,7 +54,7 @@
     background-color: $smurf;
     color: $snow;
     width: 175px;
-    padding: 15px 0;
+    padding: 10px 0;
     text-decoration: none;
     margin-right: 15px;
     display: inline-block;

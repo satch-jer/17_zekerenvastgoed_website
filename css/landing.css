@@ -28,14 +28,13 @@
 
 #block-intro {
   font-weight: 400;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin-bottom: 50px;
   line-height: 2; }
   #block-intro h2 {
-    font-size: 2.4rem;
+    font-size: 2rem;
     font-weight: 700;
-    font-variant: small-caps;
-    text-transform: lowercase; }
+    color: #111111; }
 
 #block-landingbuttons div {
   display: inline-block; }
@@ -43,7 +42,7 @@
   background-color: #3498db;
   color: #ffffff;
   width: 175px;
-  padding: 15px 0;
+  padding: 10px 0;
   text-decoration: none;
   margin-right: 15px;
   display: inline-block;

@@ -1,0 +1,33 @@
+@import 'zekerenvastgoed.scss';
+
+footer{
+  margin-top: 150px;
+  margin-bottom: 100px;
+
+  div{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 75px;
+    background-color: $beton;
+
+    text-align: right;
+
+    p{
+      padding-right: 50px;
+      font-variant: small-caps;
+      text-transform: lowercase;
+      font-weight: 500;
+      font-size: 1.6rem;
+    }
+
+    a{
+      text-decoration: none;
+      color: $evening;
+      font-variant: normal;
+      font-size: 1rem;
+      font-weight: 400;
+    }
+  }
+
+}

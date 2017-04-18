@@ -6,6 +6,9 @@ global-styling:
       css/layout.css: {}
       css/navigation.css: {}
       css/landing.css: {}
+      css/view_recproj.css: {}
+      css/content.css: {}
+      css/footer.css: {}
   js:
     js/zekerenvastgoed.js: {}
   dependencies:
