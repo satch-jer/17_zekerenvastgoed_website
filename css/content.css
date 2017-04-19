@@ -1,6 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700,800");
 #block-zekerenvastgoed-content p {
-  width: 50%;
-  margin-top: -75px;
+  width: 75%;
   margin-left: 50px; }
+#block-zekerenvastgoed-content p:first-child {
+  margin-top: -75px; }
+
+h2 {
+  font-weight: 800;
+  letter-spacing: 5px;
+  font-variant: small-caps;
+  font-size: 4.8rem;
+  color: #f1f1f1;
+  text-transform: lowercase;
+  padding-left: 15px; }
 
 /*# sourceMappingURL=content.css.map */

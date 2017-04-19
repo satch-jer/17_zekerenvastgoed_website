@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AACE,gCAAC;EACC,KAAK,EAAE,GAAG;EACV,UAAU,EAAE,KAAK;EACjB,WAAW,EAAE,IAAI",
-"sources": ["../sass/content.scss"],
+"mappings": "AAAQ,8EAAsE;ACG5E,gCAAC;EACC,KAAK,EAAE,GAAG;EACV,WAAW,EAAE,IAAI;AAEnB,4CAAa;EACX,UAAU,EAAE,KAAK;;AAIrB,EAAE;EACA,WAAW,EAAE,GAAG;EAChB,cAAc,EAAE,GAAG;EACnB,YAAY,EAAE,UAAU;EACxB,SAAS,EAAE,MAAM;EACjB,KAAK,EDdC,OAAO;ECeb,cAAc,EAAE,SAAS;EACzB,YAAY,EAAE,IAAI",
+"sources": ["../sass/zekerenvastgoed.scss","../sass/content.scss"],
 "names": [],
 "file": "content.css"
 }

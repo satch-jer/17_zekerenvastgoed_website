@@ -4,6 +4,7 @@ description: 'custom theme for zekerenvastgoed'
 package: Core
 hidden: false
 core: '8.x'
+base theme: classy
 
 libraries:
   - core/normalize

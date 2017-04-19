@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700,800");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700,800");
 .zvg-landing {
   width: 100vw;
   height: 100vh;
@@ -34,7 +35,8 @@
   #block-intro h2 {
     font-size: 2rem;
     font-weight: 700;
-    color: #111111; }
+    color: #111111;
+    padding-left: 0px; }
 
 #block-landingbuttons div {
   display: inline-block; }
