@@ -38,9 +38,11 @@
     color: #111111;
     padding-left: 0px; }
 
-#block-landingbuttons div {
+#block-landingbuttons div,
+#block-homepagebuttons div {
   display: inline-block; }
-#block-landingbuttons a {
+#block-landingbuttons a,
+#block-homepagebuttons a {
   background-color: #3498db;
   color: #ffffff;
   width: 175px;
@@ -48,6 +50,15 @@
   text-decoration: none;
   margin-right: 15px;
   display: inline-block;
-  text-align: center; }
+  text-align: center;
+  border: 2px solid #3498db;
+  transition: 1s ease; }
+#block-landingbuttons a:hover,
+#block-homepagebuttons a:hover {
+  color: #3498db;
+  background-color: transparent; }
+
+#block-homepagebuttons {
+  padding-top: 25px; }
 
 /*# sourceMappingURL=landing.css.map */

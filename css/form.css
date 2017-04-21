@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700,800");
+.block-contact-block {
+  width: 75%;
+  margin-left: 50px;
+  margin-top: 50px; }
+
+label {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden; }
+
+input, textarea, select {
+  -ms-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  display: block;
+  margin: 15px 0;
+  border: 1px solid #f1f1f1;
+  width: 95%;
+  padding: 10px;
+  color: #666666;
+  border-radius: 0;
+  -webkit-appearance: none; }
+
+textarea {
+  resize: none; }
+
+#edit-submit {
+  background-color: #3498db;
+  width: 150px;
+  padding: 10px 0;
+  text-align: center;
+  color: #ffffff;
+  margin: 25px auto 0 auto;
+  border: 2px solid #3498db;
+  transition: 1s ease; }
+
+#edit-submit:hover {
+  color: #3498db;
+  background-color: #ffffff; }
+
+input:focus, textarea:focus, select:focus {
+  outline: 0;
+  border: 1px solid #3498db;
+  border-radius: 0;
+  -webkit-appearance: none; }
+
+#edit-preview {
+  display: none; }
+
+/*# sourceMappingURL=form.css.map */

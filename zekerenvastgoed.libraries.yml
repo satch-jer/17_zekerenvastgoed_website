@@ -8,6 +8,7 @@ global-styling:
       css/landing.css: {}
       css/view_recproj.css: {}
       css/content.css: {}
+      css/form.css: {}
       css/footer.css: {}
   js:
     js/zekerenvastgoed.js: {}

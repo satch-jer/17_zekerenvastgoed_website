@@ -1,0 +1,71 @@
+@import 'zekerenvastgoed.scss';
+
+.block-contact-block{
+  width: 75%;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+//hide labels, but visible for screenreader
+label{
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+
+//input fields
+input, textarea, select{
+  //equaliser for widht of input/textarea/select
+  -ms-box-sizing:content-box;
+  -moz-box-sizing:content-box;
+  -webkit-box-sizing:content-box;
+  box-sizing:content-box;
+
+  display: block;
+  margin: 15px 0;
+  border: 1px solid $beton;
+  width: 95%;
+  padding: 10px;
+  color: $evening;
+
+  //remove iphone styling
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+textarea{
+  resize: none;
+}
+
+#edit-submit{
+  background-color: $smurf;
+  width: 150px;
+  padding: 10px 0;
+  text-align: center;
+  color: $snow;
+  margin: 25px auto 0 auto;
+  border: 2px solid $smurf;
+  transition: 1s ease;
+}
+
+#edit-submit:hover{
+  color: $smurf;
+  background-color: $snow;
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: 0;
+  border: 1px solid $smurf;
+
+  //remove iphone styling
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+//hide preview button
+#edit-preview{
+  display: none;
+}

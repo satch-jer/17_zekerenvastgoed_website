@@ -1,6 +1,9 @@
 @import 'zekerenvastgoed.scss';
 
-#block-zekerenvastgoed-content{
+#block-zekerenvastgoed-content,
+#block-tekstrecenteprojecten{
+  margin-top: 100px;
+
   p{
     width: 75%;
     margin-left: 50px;

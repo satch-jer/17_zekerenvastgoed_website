@@ -3,32 +3,42 @@
 footer{
   margin-top: 150px;
   margin-bottom: 100px;
+  background-color: $beton;
 
   div{
     max-width: 1140px;
     margin: 0 auto;
     padding-top: 25px;
     padding-bottom: 75px;
-    background-color: $beton;
-
+    padding-right: 15px;
     text-align: right;
 
-    p{
-      padding-right: 50px;
+    p:first-child{
       font-variant: small-caps;
       text-transform: lowercase;
       font-weight: 700;
-      font-size: 1.6rem;
+      font-size: 2rem;
       letter-spacing: 2px;
     }
 
-    a{
-      text-decoration: none;
-      color: $evening;
+    p{
       font-variant: normal;
-      font-size: 1rem;
+      font-size: 1.4rem;
       font-weight: 400;
       letter-spacing: 0px;
+    }
+
+    a{
+      text-decoration: underline;
+      color: $evening;
+      font-variant: normal;
+      font-size: 1.4rem;
+      font-weight: 400;
+      letter-spacing: 0px;
+      transition: 1s ease;
+    }
+    a:hover{
+      text-decoration: line-through;
     }
   }
 

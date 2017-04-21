@@ -46,7 +46,9 @@
   }
 }
 
-#block-landingbuttons{
+#block-landingbuttons,
+#block-homepagebuttons
+{
   div{
     display: inline-block;
   }
@@ -59,5 +61,15 @@
     margin-right: 15px;
     display: inline-block;
     text-align: center;
+    border: 2px solid $smurf;
+    transition: 1s ease;
   }
+  a:hover{
+    color: $smurf;
+    background-color: transparent;
+  }
+}
+
+#block-homepagebuttons{
+  padding-top: 25px;
 }

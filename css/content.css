@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700,800");
-#block-zekerenvastgoed-content p {
-  width: 75%;
-  margin-left: 50px; }
-#block-zekerenvastgoed-content p:first-child {
-  margin-top: -75px; }
+#block-zekerenvastgoed-content,
+#block-tekstrecenteprojecten {
+  margin-top: 100px; }
+  #block-zekerenvastgoed-content p,
+  #block-tekstrecenteprojecten p {
+    width: 75%;
+    margin-left: 50px; }
+  #block-zekerenvastgoed-content p:first-child,
+  #block-tekstrecenteprojecten p:first-child {
+    margin-top: -75px; }
 
 h2 {
   font-weight: 800;

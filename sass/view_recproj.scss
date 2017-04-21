@@ -1,9 +1,9 @@
 @import 'zekerenvastgoed.scss';
 
-#block-views-block-recente-projecten-block-1{
-  margin-top: 150px;
-  margin-bottom: 50px;
-  //max-width: 1140px;
+#block-views-block-recente-projecten-block-1,
+#block-views-block-recnete-projecten-block-1,
+#block-views-block-tekoop-block-1{
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
 
@@ -59,7 +59,9 @@
 }
 
 @media screen and (min-width: 768px) {
-  #block-views-block-recente-projecten-block-1{
+  #block-views-block-recente-projecten-block-1,
+  #block-views-block-recnete-projecten-block-1,
+  #block-views-block-tekoop-block-1{
     .views-row{
       width: 45%;
       display: inline-block;
