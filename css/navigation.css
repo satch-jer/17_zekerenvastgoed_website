@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700,800");
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700,800");
 header {
   overflow: hidden;
   position: fixed;
@@ -9,13 +8,12 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   height: 200px;
-  background-color: rgba(255, 255, 255, 0.1); }
+  background-color: rgba(241, 241, 241, 0.3);
+  text-align: center; }
 
 .inner-header {
   max-width: 1140px;
-  text-align: center;
   margin: 0 auto; }
 
 #block-zekerenvastgoed-branding {
@@ -24,9 +22,10 @@ header {
     width: 50px; }
 
 nav ul {
-  list-style-type: none; }
+  list-style-type: none;
+  -webkit-padding-start: 0; }
   nav ul li {
-    display: inline; }
+    display: inline-block; }
     nav ul li a {
       color: #111111;
       text-decoration: none;
@@ -34,7 +33,7 @@ nav ul {
       font-weight: 700;
       font-variant: small-caps;
       text-transform: lowercase;
-      padding: 0 15px 15px 15px;
+      padding: 15px;
       transition: 1s ease; }
     nav ul li a:hover {
       text-decoration: line-through; }

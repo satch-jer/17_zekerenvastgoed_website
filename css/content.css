@@ -19,4 +19,8 @@ h2 {
   text-transform: lowercase;
   padding-left: 15px; }
 
+@media screen and (min-width: 1150px) {
+  h2 {
+    padding-left: 0; } }
+
 /*# sourceMappingURL=content.css.map */

@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700,800");
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700,800");
 .zvg-landing {
   width: 100vw;
   height: 100vh;
@@ -31,34 +30,57 @@
   font-weight: 400;
   font-size: 1.6rem;
   margin-bottom: 50px;
-  line-height: 2; }
+  line-height: 2;
+  text-align: center; }
   #block-intro h2 {
     font-size: 2rem;
     font-weight: 700;
     color: #111111;
     padding-left: 0px; }
+  #block-intro p {
+    display: none; }
 
-#block-landingbuttons div,
-#block-homepagebuttons div {
-  display: inline-block; }
-#block-landingbuttons a,
-#block-homepagebuttons a {
-  background-color: #3498db;
-  color: #ffffff;
-  width: 175px;
-  padding: 10px 0;
-  text-decoration: none;
-  margin-right: 15px;
-  display: inline-block;
-  text-align: center;
-  border: 2px solid #3498db;
-  transition: 1s ease; }
-#block-landingbuttons a:hover,
-#block-homepagebuttons a:hover {
-  color: #3498db;
-  background-color: transparent; }
+#block-landingbuttons,
+#block-homepagebuttons {
+  text-align: center; }
+  #block-landingbuttons div,
+  #block-homepagebuttons div {
+    display: inline-block; }
+  #block-landingbuttons a,
+  #block-homepagebuttons a {
+    background-color: #3498db;
+    color: #ffffff;
+    width: 175px;
+    padding: 10px 0;
+    text-decoration: none;
+    margin-right: 15px;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #3498db;
+    transition: 1s ease;
+    margin-bottom: 15px; }
+  #block-landingbuttons a:hover,
+  #block-homepagebuttons a:hover {
+    color: #3498db;
+    background-color: transparent; }
 
 #block-homepagebuttons {
   padding-top: 25px; }
+
+@media screen and (min-width: 768px) {
+  #block-intro {
+    text-align: left; }
+    #block-intro p {
+      display: block; }
+
+  #block-landingbuttons,
+  #block-homepagebuttons {
+    text-align: left; }
+
+  #block-homepagebuttons {
+    padding-left: 15px; } }
+@media screen and (min-width: 1150px) {
+  #block-homepagebuttons {
+    padding-left: 0px; } }
 
 /*# sourceMappingURL=landing.css.map */

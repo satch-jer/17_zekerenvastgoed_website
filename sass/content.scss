@@ -22,3 +22,10 @@ h2{
   text-transform: lowercase;
   padding-left: 15px;
 }
+
+//mediaquery om alle margin-left te verwijderen
+@media screen and (min-width: 1150px) {
+  h2{
+    padding-left: 0;
+  }
+}

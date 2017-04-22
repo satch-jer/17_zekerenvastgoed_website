@@ -1,38 +1,46 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700,800");
 #block-views-block-recente-projecten-block-1,
 #block-views-block-recnete-projecten-block-1,
-#block-views-block-tekoop-block-1 {
+#block-views-block-tekoop-block-1,
+.field--name-field-project-img {
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto; }
   #block-views-block-recente-projecten-block-1 .views-row,
+  #block-views-block-recente-projecten-block-1 .field__item,
   #block-views-block-recnete-projecten-block-1 .views-row,
-  #block-views-block-tekoop-block-1 .views-row {
+  #block-views-block-recnete-projecten-block-1 .field__item,
+  #block-views-block-tekoop-block-1 .views-row,
+  #block-views-block-tekoop-block-1 .field__item,
+  .field--name-field-project-img .views-row,
+  .field--name-field-project-img .field__item {
     position: relative;
-    display: inline-block;
-    overflow: hidden;
     margin-bottom: 50px; }
   #block-views-block-recente-projecten-block-1 h2,
   #block-views-block-recnete-projecten-block-1 h2,
-  #block-views-block-tekoop-block-1 h2 {
+  #block-views-block-tekoop-block-1 h2,
+  .field--name-field-project-img h2 {
     padding-left: 15px;
     padding-bottom: 50px; }
   #block-views-block-recente-projecten-block-1 img,
   #block-views-block-recnete-projecten-block-1 img,
-  #block-views-block-tekoop-block-1 img {
+  #block-views-block-tekoop-block-1 img,
+  .field--name-field-project-img img {
     display: block;
     max-width: 100%;
     height: 100%; }
   #block-views-block-recente-projecten-block-1 .views-field-title,
   #block-views-block-recnete-projecten-block-1 .views-field-title,
-  #block-views-block-tekoop-block-1 .views-field-title {
+  #block-views-block-tekoop-block-1 .views-field-title,
+  .field--name-field-project-img .views-field-title {
     position: absolute;
     height: 100%;
     text-align: center;
     width: 100%; }
     #block-views-block-recente-projecten-block-1 .views-field-title a,
     #block-views-block-recnete-projecten-block-1 .views-field-title a,
-    #block-views-block-tekoop-block-1 .views-field-title a {
+    #block-views-block-tekoop-block-1 .views-field-title a,
+    .field--name-field-project-img .views-field-title a {
       visibility: hidden;
       border: 1px solid #ffffff;
       width: 250px;
@@ -43,35 +51,48 @@
       display: inline-block; }
   #block-views-block-recente-projecten-block-1 .views-field-title:hover,
   #block-views-block-recnete-projecten-block-1 .views-field-title:hover,
-  #block-views-block-tekoop-block-1 .views-field-title:hover {
+  #block-views-block-tekoop-block-1 .views-field-title:hover,
+  .field--name-field-project-img .views-field-title:hover {
     background-color: rgba(0, 0, 0, 0.5); }
     #block-views-block-recente-projecten-block-1 .views-field-title:hover a,
     #block-views-block-recnete-projecten-block-1 .views-field-title:hover a,
-    #block-views-block-tekoop-block-1 .views-field-title:hover a {
+    #block-views-block-tekoop-block-1 .views-field-title:hover a,
+    .field--name-field-project-img .views-field-title:hover a {
       visibility: visible; }
   #block-views-block-recente-projecten-block-1 .views-field-title:before,
   #block-views-block-recnete-projecten-block-1 .views-field-title:before,
-  #block-views-block-tekoop-block-1 .views-field-title:before {
+  #block-views-block-tekoop-block-1 .views-field-title:before,
+  .field--name-field-project-img .views-field-title:before {
     content: '';
     display: inline-block;
     height: 100%;
     vertical-align: middle; }
 
+.node--type-project-page .field--name-field-type,
+.node--type-project-page .field--name-field-proj-status {
+  display: none; }
+
 @media screen and (min-width: 768px) {
-  #block-views-block-recente-projecten-block-1 .views-row,
-  #block-views-block-recnete-projecten-block-1 .views-row,
-  #block-views-block-tekoop-block-1 .views-row {
-    width: 45%;
-    display: inline-block; }
-  #block-views-block-recente-projecten-block-1 h2,
-  #block-views-block-recnete-projecten-block-1 h2,
-  #block-views-block-tekoop-block-1 h2 {
-    padding-left: 0px; }
-
-  .even {
-    margin-left: 25px; }
-
-  .odd {
-    margin-right: 25px; } }
+  #block-views-block-recente-projecten-block-1,
+  #block-views-block-recnete-projecten-block-1,
+  #block-views-block-tekoop-block-1,
+  .field--name-field-project-img {
+    padding-left: 15px; }
+    #block-views-block-recente-projecten-block-1 .views-row,
+    #block-views-block-recente-projecten-block-1 .field__item,
+    #block-views-block-recnete-projecten-block-1 .views-row,
+    #block-views-block-recnete-projecten-block-1 .field__item,
+    #block-views-block-tekoop-block-1 .views-row,
+    #block-views-block-tekoop-block-1 .field__item,
+    .field--name-field-project-img .views-row,
+    .field--name-field-project-img .field__item {
+      width: 47%; } }
+@media screen and (min-width: 1150px) {
+  #block-views-block-recente-projecten-block-1,
+  #block-views-block-recnete-projecten-block-1,
+  #block-views-block-tekoop-block-1,
+  .field--name-field-project-img,
+  h2 {
+    padding-left: 0; } }
 
 /*# sourceMappingURL=view_recproj.css.map */

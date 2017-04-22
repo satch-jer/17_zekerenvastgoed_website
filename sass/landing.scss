@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,800');
 @import 'zekerenvastgoed.scss';
 
 .zvg-landing{
@@ -38,17 +37,28 @@
   margin-bottom: 50px;
   line-height: 2;
 
+  //align center op kleine schermen
+  text-align: center;
+
   h2{
     font-size: 2rem;
     font-weight: 700;
     color: $night;
     padding-left: 0px;
   }
+
+  p{
+    //verbergen op kleine schermen
+    display: none;
+  }
 }
 
 #block-landingbuttons,
 #block-homepagebuttons
 {
+  //align center op kleine schermen
+  text-align: center;
+
   div{
     display: inline-block;
   }
@@ -63,6 +73,9 @@
     text-align: center;
     border: 2px solid $smurf;
     transition: 1s ease;
+
+    //margin bottom voor kleine schermen
+    margin-bottom: 15px;
   }
   a:hover{
     color: $smurf;
@@ -72,4 +85,32 @@
 
 #block-homepagebuttons{
   padding-top: 25px;
+}
+
+//mediaquery om alle margin-left te verwijderen
+@media screen and (min-width: 768px) {
+  #block-intro{
+    text-align: left;
+
+    p{
+      display: block;
+    }
+  }
+
+  #block-landingbuttons,
+  #block-homepagebuttons
+  {
+    //align center op kleine schermen
+    text-align: left;
+  }
+
+  #block-homepagebuttons{
+    padding-left: 15px;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  #block-homepagebuttons{
+    padding-left: 0px;
+  }
 }
