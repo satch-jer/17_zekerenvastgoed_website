@@ -8,7 +8,7 @@
   position: absolute;
   max-width: 1140px;
   z-index: 1;
-  top: 40%;
+  top: 50%;
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -36,7 +36,7 @@
     font-size: 2rem;
     font-weight: 700;
     color: #111111;
-    padding-left: 0px; }
+    padding-left: 0; }
   #block-intro p {
     display: none; }
 
@@ -68,6 +68,9 @@
   padding-top: 25px; }
 
 @media screen and (min-width: 768px) {
+  .zvg-landing-intro {
+    top: 45%; }
+
   #block-intro {
     text-align: left; }
     #block-intro p {

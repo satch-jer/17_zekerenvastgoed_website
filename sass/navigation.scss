@@ -10,7 +10,7 @@ header{
   align-items: center;
   justify-content: center;
   height: 200px;
-  background-color: $plastic;
+  background-color: $snow;
   text-align: center;
 }
 
@@ -42,13 +42,23 @@ nav{
         font-weight: 700;
         font-variant: small-caps;
         text-transform: lowercase;
-        padding: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
         transition: 1s ease;
       }
 
+      .is-active{
+        border-bottom: 2px solid $night;
+        color: $night;
+      }
+
       a:hover{
-        text-decoration: line-through;
+        border-bottom: 2px solid $night;
+        color: $night;
       }
     }
   }
 }
+
