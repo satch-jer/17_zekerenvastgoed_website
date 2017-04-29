@@ -32,7 +32,6 @@
     height: 100%;
     text-align: center;
     width: 100%;
-    cursor: pointer;
     a{
       visibility: hidden;
       border: 1px solid $snow;
@@ -45,8 +44,7 @@
     }
   }
 
-  .views-field-title:hover,
-  .views-field-title:focus{
+  .views-field-title:hover{
     background-color: $blackplastic;
 
     a{
