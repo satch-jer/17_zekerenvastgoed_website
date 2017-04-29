@@ -10,7 +10,7 @@
   position: absolute;
   max-width: 1140px;
   z-index: 1;
-  top: 50%;
+  top: 55%;
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -51,6 +51,11 @@
     //verbergen op kleine schermen
     display: none;
   }
+}
+
+//knoppen verbergen op kleinere schermen
+#block-landingbuttons{
+  display: none;
 }
 
 #block-landingbuttons,
@@ -99,6 +104,10 @@
     p{
       display: block;
     }
+  }
+
+  #block-landingbuttons{
+    display: block;
   }
 
   #block-landingbuttons,

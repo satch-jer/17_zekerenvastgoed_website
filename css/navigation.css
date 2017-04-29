@@ -25,7 +25,8 @@ nav ul {
   list-style-type: none;
   -webkit-padding-start: 0; }
   nav ul li {
-    display: inline-block; }
+    display: inline-block;
+    margin-bottom: 10px; }
     nav ul li a {
       color: #111111;
       text-decoration: none;
@@ -36,7 +37,7 @@ nav ul {
       margin-left: 15px;
       margin-right: 15px;
       padding-top: 15px;
-      padding-bottom: 15px;
+      padding-bottom: 5px;
       transition: 1s ease; }
     nav ul li .is-active {
       border-bottom: 2px solid #111111;
@@ -44,5 +45,20 @@ nav ul {
     nav ul li a:hover {
       border-bottom: 2px solid #111111;
       color: #111111; }
+
+@media screen and (min-width: 1150px) {
+  header {
+    display: block;
+    height: 125px; }
+
+  #block-zekerenvastgoed-branding {
+    margin-top: 35px;
+    float: left; }
+
+  #block-zekerenvastgoed-main-menu {
+    margin-top: 35px;
+    float: right; }
+    #block-zekerenvastgoed-main-menu li {
+      margin-bottom: 0; } }
 
 /*# sourceMappingURL=navigation.css.map */
